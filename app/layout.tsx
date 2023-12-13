@@ -6,19 +6,19 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "iliaszales.de",
+    template: "%s | iliaszales.de",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Fullstack Software-Engineer from Hannover",
   openGraph: {
-    title: "chronark.com",
+    title: "iliaszales.de",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+      "Fullstack Software-Engineer from Hannover",
+    url: "https://iliaszales.de",
+    siteName: "iliaszales.de",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://it-iz.de/wp-content/uploads/2021/10/it-iz-logo.png",
         width: 1920,
         height: 1080,
       },

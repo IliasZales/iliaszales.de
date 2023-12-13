@@ -43,3 +43,6 @@ yarn-error.log*
 
 # cyclonedx-npm
 /sbom.xml
+
+# Contentlayer
+.contentlayer

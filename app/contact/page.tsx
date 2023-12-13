@@ -1,27 +1,27 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import {Github, Linkedin, Mail, Phone, Twitter} from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Twitter size={20} />,
-		href: "https://twitter.com/chronark_",
-		label: "Twitter",
-		handle: "@chronark_",
+		icon: <Phone size={20} />,
+		href: "tel:+4917672537490",
+		label: "Phone",
+		handle: "+49 176 72 53 74 90",
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:dev@chronark.com",
+		href: "mailto:info@it-iz.de",
 		label: "Email",
-		handle: "dev@chronark.com",
+		handle: "info@it-iz.de",
 	},
 	{
-		icon: <Github size={20} />,
-		href: "https://github.com/chronark",
-		label: "Github",
-		handle: "chronark",
+		icon: <Linkedin size={20} />,
+		href: "https://de.linkedin.com/in/ilias-zales-2a446a200",
+		label: "LinkedIn",
+		handle: "Ilias Zales",
 	},
 ];
 
